@@ -36,7 +36,7 @@ namespace LojaLivrosApi.Controllers
             }
             catch (Exception ex)
             {
-
+                //Fatal error catch example.
                 _logger.LogError(ex, "Fatal Error Ocurred.");
                 throw;
             }
